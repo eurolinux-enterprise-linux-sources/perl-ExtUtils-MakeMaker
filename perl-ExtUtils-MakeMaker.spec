@@ -3,7 +3,7 @@
 
 Name:           perl-%{cpan_name}
 Version:        %(echo '%{cpan_version}' | tr _ .)
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Create a module Makefile
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -95,6 +95,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.68-3
+- Mass rebuild 2013-12-27
+
 * Thu Jun 27 2013 Jitka Plesnikova <jplesnik@redhat.com> - 6.68-2
 - Update BRs
 
